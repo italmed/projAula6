@@ -10,7 +10,7 @@ public class Pessoa {
     public Pessoa(){
 
     }
-    
+
     public Pessoa(String nome, String ender, String tel){
         this.nome = nome;
         this.ender = ender;
@@ -40,4 +40,7 @@ public class Pessoa {
         this.tel = tel;
     }
     
+    public String exibirDados(){
+        return getNome() +  " - " + getEnder() +  " - " + getTelefone();
+    }
 }

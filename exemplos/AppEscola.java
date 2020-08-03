@@ -10,5 +10,8 @@ public class AppEscola {
     System.out.println("Estudante: " + estudante.getNome());
     System.out.println("Professor: " + prof.getNome());
     System.out.println("Salario: " + prof.getSalario());
+
+    System.out.println(estudante.exibirDados());
+    System.out.println(prof.exibirDados());
     }
 }

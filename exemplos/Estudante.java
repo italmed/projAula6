@@ -26,4 +26,8 @@ public class Estudante extends Pessoa {
     public int getRa(){
         return ra;
     }
+
+    public String exibirDados(){
+        return super.exibirDados() + " - RA: " + getRa();
+    }
 }
