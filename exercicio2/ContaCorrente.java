@@ -7,6 +7,10 @@ public class ContaCorrente extends Conta {
         super(numConta, saldo);
     }
 
+    public String exibirDados(){
+        return "Conta " + numConta + ": " + saldo;
+    }
+
     @Override
     public void sacar(float valorSaque) {
         if (valorSaque > saldo){

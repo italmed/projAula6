@@ -10,9 +10,9 @@ public class AppContas {
 
         int opcao, opcao2 = 1;
         double valordeSaque, valorDeposito;
-        float saldoCC = 20000;
-        float saldoCP = 20000;
-        float saldoCE = 20000;
+        float saldoCC = 0;
+        float saldoCP = 0;
+        float saldoCE = 0;
 
         opcao = 0;
 
@@ -122,4 +122,3 @@ public class AppContas {
         in.close();
     }   
 }
-    
