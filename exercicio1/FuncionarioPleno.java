@@ -1,4 +1,4 @@
-package exercicio6;
+package exercicio1;
 
 public class FuncionarioPleno extends Funcionario{
     
