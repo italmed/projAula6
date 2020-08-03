@@ -5,7 +5,6 @@ public class FuncionarioSenior extends Funcionario{
     float bonus, bonusTotal;
 
     public FuncionarioSenior(){
-
     }
 
     public FuncionarioSenior(String nome, int horasTrabalhadas, float valorPorHora, float bonus){

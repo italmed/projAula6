@@ -7,7 +7,6 @@ public class Funcionario {
     float valorPorHora;
 
     public Funcionario(){
-
     }
 
     public Funcionario(String nome, int horasTrabalhadas, float valorPorHora){
