@@ -27,6 +27,7 @@ public class Estudante extends Pessoa {
         return ra;
     }
 
+    @Override
     public String exibirDados(){
         return super.exibirDados() + " - RA: " + getRa();
     }

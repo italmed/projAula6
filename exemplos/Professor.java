@@ -25,4 +25,9 @@ public class Professor extends Pessoa {
         return salario;
     }
 
+    @Override
+    public String exibirDados(){
+        return super.exibirDados() + " - Titulo: " + getTitulo();
+    }
+
 }
