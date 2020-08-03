@@ -3,7 +3,7 @@ package exemplos;
 /**
  * Pessoa
  */
-public class Pessoa {
+public class Pessoa { // todas as classes herdam nativamente de Object >> public class Pessoa Extends Object
 
     private String nome, ender, tel;
 
@@ -42,5 +42,12 @@ public class Pessoa {
     
     public String exibirDados(){
         return getNome() +  " - " + getEnder() +  " - " + getTelefone();
+    }
+
+        // override abaixo no toString, quando printarmos o objeto direto, os dados dentro deste toString que serão exibidos
+        // portanto se alteraos o conteudo dentr dele, aleteramos o que será exibido.
+    @Override
+    public String toString() {
+        return exibirDados();
     }
 }

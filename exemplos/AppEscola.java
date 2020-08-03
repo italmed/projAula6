@@ -11,7 +11,12 @@ public class AppEscola {
     System.out.println("Professor: " + prof.getNome());
     System.out.println("Salario: " + prof.getSalario());
 
+    //testando o exibirDados, que recebe dados tanto da superclasso (Pessoa) quanto das classes filho (estudante  professor)
     System.out.println(estudante.exibirDados());
     System.out.println(prof.exibirDados());
+
+    //imprimir um objeto Estudante sem método ou atributo
+    System.out.println(estudante);
+
     }
 }
